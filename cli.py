@@ -2,8 +2,8 @@ import click
 from bot_logic import BinanceBot
 
 # Replace with your actual Testnet API Keys
-API_KEY = 'YOUR_TESTNET_API_KEY'
-API_SECRET = 'YOUR_TESTNET_API_SECRET'
+API_KEY = '7oIrhg95JzcM95yYC7sjJWJoAt8jnc1rx90jA2VdrZ7kyXR6KwUPJoyX2NR7SFYH'
+API_SECRET = 'XPdBDKKgA9ntYQD8I4NOCiZ6oHnccARqySWtJzq0gGaiHZgUofkYot3Y6iVVgrrh'
 
 @click.command()
 @click.option('--symbol', prompt='Symbol (e.g., BTCUSDT)', help='The trading pair.')
